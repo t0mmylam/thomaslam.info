@@ -1,0 +1,80 @@
+.navbar {
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 80rem;
+    position: relative;
+    top: 0;
+    z-index: 100;
+}
+
+.footer {
+    height: 70px;
+    border-top: solid rgb(43, 43, 43) 0.5px;
+    z-index: 100;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 20px;
+}
+
+.nav-links,
+.nav-title {
+    font-size: 1.2em;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    font-weight: 500;
+    letter-spacing: 0rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.nav-title {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.nav-links:hover,
+.nav-title:hover {
+    color: white;
+}
+
+.underline-hover-effect:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#contact:after {
+    background: #FF579A;
+}
+
+.underline-hover-effect:hover:after {
+    width: 100%;
+    left: 0;
+}
