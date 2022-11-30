@@ -1,14 +1,3 @@
-.footer {
-    height: 70px;
-    border-top: solid rgb(43, 43, 43) 0.5px;
-    z-index: 100;
-    width: 100%;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 header {
     top: 0;
     position: fixed;
@@ -16,20 +5,21 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
 }
 
-.nav-menu {
+.nav {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 20px;
 }
 
 .nav-links,
 .nav-title {
-    font-size: 1.2em;
+    font-size: 1.3em;
     display: inline-block;
-    padding-bottom: 0.25rem;
     position: relative;
     text-decoration: none;
     color: rgb(221, 221, 221);
@@ -38,11 +28,8 @@ header {
 }
 
 .icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5px;
+    font-size: 1.2em;
+    padding-top: .1em;
 }
 
 .nav-title {
@@ -57,7 +44,7 @@ header {
 
 .underline-hover-effect:after {
     background: none repeat scroll 0 0 transparent;
-    bottom: 0;
+    bottom: 1;
     content: "";
     display: block;
     height: 2px;
@@ -67,11 +54,8 @@ header {
     width: 0;
 }
 
-#contact:after {
-    background: #FF579A;
-}
-
 .underline-hover-effect:hover:after {
     width: 100%;
     left: 0;
+    background: aquamarine;
 }

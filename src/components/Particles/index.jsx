@@ -21,58 +21,51 @@ function ParticlesBG() {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                background: {
-                    color: "#1d1d1d"
+                "background": {
+                    "color": "#1d1d1d"
                 },
-                fpsLimit: 120,
-                interactivity: {
-                    detectsOn: 'canvas',
-                    events: {
-                        resize: true
+                "fpsLimit": 120,
+                "interactivity": {
+                    "detectsOn": 'canvas',
+                    "events": {
+                        "resize": true
                     },
                 },
-                particles: {
-                    color: {
-                        value: ["#ff00cc", "#fb19d0", "#f727d4", "#f231d8", "#ee39dc", "#e940df", "#e546e3", "#e04ce6", "#db51e9", "#d656eb", "#d15aee", "#cc5ff0", "#c763f3", "#c266f5", "#bd6af7", "#b86df8", "#b271fa", "#ad74fb", "#a877fc", "#a279fd", "#9d7cfe", "#987fff", "#9281ff", "#8d83ff", "#8886ff", "#8388ff", "#7e8aff", "#798cff", "#748dff", "#6f8fff", "#6a91fe", "#6692fd", "#6194fc", "#5d96fb", "#5997fa", "#5598f8", "#529af7", "#4f9bf5", "#4c9cf4", "#4a9df2"]
+                "particles": {
+                    "color": {
+                        "value": '#7fffd4'
                     },
-                    collisions: {
-                        enable: true,
+                    "collisions": {
+                        "enable": true,
                     },
-                    move: {
-                        directions: "none",
-                        enable: true,
-                        outModes: {
-                            default: "bounce",
+                    "move": {
+                        "directions": "none",
+                        "enable": true,
+                        "outModes": {
+                            "default": "bounce",
                         },
-                        random: true,
-                        speed: 1,
-                        straight: false,
+                        "random": true,
+                        "speed": 0.2,
+                        "straight": false,
                     },
-                    number: {
-                        density: {
-                            enable: true,
-                            area: 800,
+                    "number": {
+                        "density": {
+                            "enable": true,
+                            "area": 800,
                         },
-                        value: 80,
+                        "value": 100,
                     },
-                    opacity: {
-                        value: 0.1,
+                    "opacity": {
+                        "value": 0.8,
                     },
-                    shape: {
-                        type: "circle",
+                    "shape": {
+                        "type": "circle",
                     },
-                    size: {
-                        value: { min: 1, max: 1 },
+                    "size": {
+                        "value": { "min": 0.5, "max": 0.5 },
                     },
-                    twinkle: {
-                        particles: {
-                            enable: true,
-                            frequency: 0.05,
-                            opacity: 1
-                        }
-                    }
                 },
-                detectRetina: true,
+                "detectRetina": true,
             }}
         />
     )

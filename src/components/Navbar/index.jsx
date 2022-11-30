@@ -1,18 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import Logo from '../Logo'
 import './index.css'
 
 function Navbar() {
 	return (
 		<header>
-			<div className="home">
-				<Link className='nav-title underline-hover-effect' to="/">Your Spotify Stats</Link>
-			</div>
+			<Logo />
 			<div className='nav'>
-				<Link className='nav-links underline-hover-effect' to="/about">About</Link>
+			<Link className='nav-links underline-hover-effect' to="/experience">About</Link>
 				<Link className='nav-links underline-hover-effect' to="/experience">Experience</Link>
 				<Link className='nav-links underline-hover-effect' to="/projects">Projects</Link>
-				<Link id='contact' className='nav-links underline-hover-effect' to="/contact">Contact</Link>
+					<Link className='icons underline-hover-effect nav-links' to="https://github.com/t0mmylam/">
+						<FaGithub />
+					</Link>
+					<Link className='icons underline-hover-effect nav-links' to="https://linkedin.com/in/thslam/">
+						<FaLinkedin />
+					</Link>
 			</div>
 		</header>
 	)
