@@ -1,6 +1,6 @@
-import React, { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import React, { useCallback } from 'react';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
 
 function ParticlesBG() {
     const particlesInit = useCallback(async engine => {
@@ -17,55 +17,55 @@ function ParticlesBG() {
 
     return (
         <Particles
-            id="tsparticles"
+            id='tsparticles'
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-                "background": {
-                    "color": "#1d1d1d"
+                'background': {
+                    'color': '#1d1d1d'
                 },
-                "fpsLimit": 120,
-                "interactivity": {
-                    "detectsOn": 'canvas',
-                    "events": {
-                        "resize": true
+                'fpsLimit': 120,
+                'interactivity': {
+                    'detectsOn': 'canvas',
+                    'events': {
+                        'resize': true
                     },
                 },
-                "particles": {
-                    "color": {
-                        "value": '#7fffd4'
+                'particles': {
+                    'color': {
+                        'value': '#7fffd4'
                     },
-                    "collisions": {
-                        "enable": true,
+                    'collisions': {
+                        'enable': true,
                     },
-                    "move": {
-                        "directions": "none",
-                        "enable": true,
-                        "outModes": {
-                            "default": "bounce",
+                    'move': {
+                        'directions': 'none',
+                        'enable': true,
+                        'outModes': {
+                            'default': 'bounce',
                         },
-                        "random": true,
-                        "speed": 0.2,
-                        "straight": false,
+                        'random': true,
+                        'speed': 0.2,
+                        'straight': false,
                     },
-                    "number": {
-                        "density": {
-                            "enable": true,
-                            "area": 800,
+                    'number': {
+                        'density': {
+                            'enable': true,
+                            'area': 800,
                         },
-                        "value": 100,
+                        'value': 100,
                     },
-                    "opacity": {
-                        "value": 0.8,
+                    'opacity': {
+                        'value': 0.8,
                     },
-                    "shape": {
-                        "type": "circle",
+                    'shape': {
+                        'type': 'circle',
                     },
-                    "size": {
-                        "value": { "min": 0.5, "max": 0.5 },
+                    'size': {
+                        'value': { 'min': 0.5, 'max': 0.5 },
                     },
                 },
-                "detectRetina": true,
+                'detectRetina': true,
             }}
         />
     )
