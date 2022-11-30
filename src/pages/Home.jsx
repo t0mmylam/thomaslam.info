@@ -7,9 +7,9 @@ function Home() {
   return (
     <div>
       <div className='home-wrapper'>
-        <div className='home-title'>
-          Thomas Lam
-        </div>
+        <h1>
+          Your Spotify asdStats
+        </h1>
         <span className='tw'>
           <Typewriter
             options={{

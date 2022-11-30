@@ -56,7 +56,7 @@ function ParticlesBG() {
                         value: 80,
                     },
                     opacity: {
-                        value: 1,
+                        value: 0.1,
                     },
                     shape: {
                         type: "circle",
@@ -64,6 +64,13 @@ function ParticlesBG() {
                     size: {
                         value: { min: 1, max: 1 },
                     },
+                    twinkle: {
+                        particles: {
+                            enable: true,
+                            frequency: 0.05,
+                            opacity: 1
+                        }
+                    }
                 },
                 detectRetina: true,
             }}
