@@ -118,7 +118,7 @@
 #tllt:hover #L0,
 #tllt:hover #L1,
 #tllt:hover #T1 {
-    transform: rotate(-180deg);
+    transform: rotate(-360deg);
 }
 
 #tllt:hover #T01,
