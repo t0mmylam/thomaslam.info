@@ -12,12 +12,12 @@ function Navbar() {
 			<Link className='nav-links underline-hover-effect' to="/experience">About</Link>
 				<Link className='nav-links underline-hover-effect' to="/experience">Experience</Link>
 				<Link className='nav-links underline-hover-effect' to="/projects">Projects</Link>
-					<Link className='icons underline-hover-effect nav-links' to="https://github.com/t0mmylam/">
+					<a className='icons underline-hover-effect nav-links' href="https://github.com/t0mmylam/">
 						<FaGithub />
-					</Link>
-					<Link className='icons underline-hover-effect nav-links' to="https://linkedin.com/in/thslam/">
+					</a>
+					<a className='icons underline-hover-effect nav-links' href="https://linkedin.com/in/thslam/">
 						<FaLinkedin />
-					</Link>
+					</a>
 			</div>
 		</header>
 	)
