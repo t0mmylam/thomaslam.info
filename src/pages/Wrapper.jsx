@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 function Wrapper() {
     return (
         <>
-            <Particles />
+            <Particles color='#7fffd4'/>
             <Navbar />
             <main>
                 <Outlet />

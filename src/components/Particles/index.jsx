@@ -2,29 +2,21 @@ import React, { useCallback } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
-function ParticlesBG() {
+function ParticlesBG(props) {
     const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
+        // console.log(engine);
         await loadFull(engine);
-    }, []);
-
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
     }, []);
 
     return (
         <Particles
             id='tsparticles'
             init={particlesInit}
-            loaded={particlesLoaded}
             options={{
                 'background': {
                     'color': '#1d1d1d'
                 },
-                'fpsLimit': 120,
+                'fpsLimit': 60,
                 'interactivity': {
                     'detectsOn': 'canvas',
                     'events': {
@@ -33,7 +25,7 @@ function ParticlesBG() {
                 },
                 'particles': {
                     'color': {
-                        'value': '#7fffd4'
+                        'value': props.color
                     },
                     'collisions': {
                         'enable': true,
@@ -51,9 +43,9 @@ function ParticlesBG() {
                     'number': {
                         'density': {
                             'enable': true,
-                            'area': 800,
+                            'area': 1000,
                         },
-                        'value': 100,
+                        'value': 120,
                     },
                     'opacity': {
                         'value': 0.8,
@@ -62,7 +54,7 @@ function ParticlesBG() {
                         'type': 'circle',
                     },
                     'size': {
-                        'value': { 'min': 0.5, 'max': 0.5 },
+                        'value': { 'min': 0.7, 'max': 0.7 },
                     },
                 },
                 'detectRetina': true,

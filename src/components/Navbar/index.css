@@ -12,7 +12,7 @@ header {
 
 .nav {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(5, auto);
     grid-gap: 20px;
 }
 
@@ -57,5 +57,5 @@ header {
 .underline-hover-effect:hover:after {
     width: 100%;
     left: 0;
-    background: aquamarine;
+    background: #7fffd4;
 }
