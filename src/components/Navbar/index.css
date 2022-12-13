@@ -10,9 +10,19 @@ header {
     box-sizing: border-box;
 }
 
+.nav-words {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
+}
+
+.nav-icons {
+    display: none;
+}
+
 .nav {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 20px;
 }
 
@@ -22,7 +32,7 @@ header {
     display: inline-block;
     position: relative;
     text-decoration: none;
-    color: rgb(221, 221, 221);
+    color: #bbb;
     font-weight: 500;
     letter-spacing: 0rem;
 }
@@ -58,4 +68,16 @@ header {
     width: 100%;
     left: 0;
     background: #7fffd4;
+}
+
+@media (max-width: 570px) {
+    .nav-icons {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 20px;
+    }
+
+    .nav-words {
+        display: none;
+    }
 }
