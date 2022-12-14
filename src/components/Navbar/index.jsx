@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import {
   FaGithub,
   FaLinkedin,
@@ -17,18 +17,18 @@ function Navbar() {
       <Logo />
       <div className="nav">
         <div className="nav-words">
-          <Link className="nav-links underline-hover-effect" to="/">
+          <NavLink className="nav-links underline-hover-effect" to="/">
             Home
-          </Link>
-          <Link className="nav-links underline-hover-effect" to="/about">
+          </NavLink>
+          <NavLink className="nav-links underline-hover-effect" to="/about">
             About
-          </Link>
-          <Link className="nav-links underline-hover-effect" to="/experience">
+          </NavLink>
+          <NavLink className="nav-links underline-hover-effect" to="/experience">
             Experience
-          </Link>
-          <Link className="nav-links underline-hover-effect" to="/projects">
+          </NavLink>
+          <NavLink className="nav-links underline-hover-effect" to="/projects">
             Projects
-          </Link>
+          </NavLink>
         </div>
         <div className="nav-icons">
           <Link className="nav-links underline-hover-effect" to="/">
@@ -52,7 +52,7 @@ function Navbar() {
         </a>
         <a
           className="icons underline-hover-effect nav-links"
-          href="https://linkedin.com/in/thslam/"
+          href="https://Navlinkedin.com/in/thslam/"
         >
           <FaLinkedin />
         </a>

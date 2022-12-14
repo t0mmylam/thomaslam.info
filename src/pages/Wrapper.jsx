@@ -1,5 +1,6 @@
 import Particles from '../components/Particles';
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import { Outlet } from 'react-router-dom'
 
 function Wrapper() {
@@ -10,6 +11,7 @@ function Wrapper() {
             <main>
                 <Outlet />
             </main>
+            <Footer />
         </>
     )
 }

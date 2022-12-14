@@ -37,6 +37,11 @@ header {
     letter-spacing: 0rem;
 }
 
+.active {
+    color: white;
+    border-bottom: solid 2px #7fffd4;
+}
+
 .icons {
     font-size: 1.2em;
     padding-top: .1em;
