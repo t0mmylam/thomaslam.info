@@ -1,9 +1,8 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   FaGithub,
   FaLinkedin,
-  FaHome,
   FaInfoCircle,
   FaBriefcase,
   FaProjectDiagram,
@@ -14,13 +13,10 @@ import "./index.css";
 function Navbar() {
   return (
     <header>
-      <div className="menu">
+      <div className="menu" style={{'--logo': '4px'}}>
         <Logo />
         <div className="nav">
           <div className="nav-words">
-            <NavLink className="nav-links underline-hover-effect" to="/">
-              Home
-            </NavLink>
             <NavLink className="nav-links underline-hover-effect" to="/about">
               About
             </NavLink>
@@ -38,18 +34,15 @@ function Navbar() {
             </NavLink>
           </div>
           <div className="nav-icons">
-            <Link className="nav-links underline-hover-effect" to="/">
-              <FaHome />
-            </Link>
-            <Link className="nav-links underline-hover-effect" to="/">
+            <NavLink className="nav-links underline-hover-effect" to="/about">
               <FaInfoCircle />
-            </Link>
-            <Link className="nav-links underline-hover-effect" to="/">
+            </NavLink>
+            <NavLink className="nav-links underline-hover-effect" to="/">
               <FaBriefcase />
-            </Link>
-            <Link className="nav-links underline-hover-effect" to="/">
+            </NavLink>
+            <NavLink className="nav-links underline-hover-effect" to="/">
               <FaProjectDiagram />
-            </Link>
+            </NavLink>
           </div>
           <a
             className="icons underline-hover-effect nav-links"

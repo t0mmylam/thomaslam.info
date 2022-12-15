@@ -6,6 +6,7 @@ header {
     display: block;
     box-sizing: border-box;
     justify-content: center;
+    z-index: 999;
 }
 
 .menu {
@@ -21,7 +22,7 @@ header {
 
 .nav-words {
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 20px;
 }
 
@@ -87,7 +88,7 @@ header {
 @media (max-width: 570px) {
     .nav-icons {
         display: grid;
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(3, auto);
         grid-gap: 20px;
     }
 

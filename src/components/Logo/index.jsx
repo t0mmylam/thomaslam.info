@@ -4,7 +4,7 @@ import './index.css'
 
 function Logo() {
     return (
-        <Link href='/' id='logo-link'>
+        <Link to='/' id='logo-link'>
         <span id='tllt'>
             <span id='T0'>
                 <span id='T01'></span>

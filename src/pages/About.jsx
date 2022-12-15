@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="wrapper">
+    <div className="page-wrapper">
       <h1>About Thomas Lam</h1>
       <p>
         I'm currently a first-year at the{" "}
