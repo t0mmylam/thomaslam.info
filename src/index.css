@@ -82,7 +82,7 @@ p a:hover {
 
 #title {
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   color: white;
   font-size: 4rem;
   font-weight: bold;
