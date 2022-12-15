@@ -7,7 +7,8 @@ function Footer() {
   return (
     <footer>
       <div className="footer-icons">
-        <Link className="nav-links underline-hover-effect" to="/">
+        <p id='footer-p'>Send me an email at <a href='mailto:bqs7kc@virginia.edu'>bqs7kc@virginia.edu</a></p>
+        <Link className="footer-icon underline-hover-effect" to="/">
           <FaRegEnvelope />
         </Link>
       </div>
