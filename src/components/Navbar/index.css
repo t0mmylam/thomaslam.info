@@ -86,6 +86,9 @@ header {
 }
 
 @media (max-width: 570px) {
+    .menu {
+        width:auto;
+    }
     .nav-icons {
         display: grid;
         grid-template-columns: repeat(3, auto);

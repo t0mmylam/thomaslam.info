@@ -101,6 +101,10 @@ p a:hover {
   padding: 0.8rem 1.6rem;
   background: #7fffd4;
   background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .button:hover {
