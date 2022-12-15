@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import {
   FaGithub,
@@ -11,9 +11,26 @@ import Logo from "../Logo";
 import "./index.css";
 
 function Navbar() {
+  const [scroll, setScroll] = useState(false)
+
+  const changeBackground = () => {
+    console.log(window.scrollY)
+    if (window.scrollY >= 66) {
+      setScroll(true)
+    } else {
+      setScroll(false)
+    }
+  }
+
+  useEffect(() => {
+    changeBackground()
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground)
+  })
+
   return (
-    <header>
-      <div className="menu" style={{'--logo': '4px'}}>
+    <header className={scroll ? "scrolled" : ""}>
+      <div className={scroll ? "menu scrolled" : "menu"} style={{'--logo': '4px'}}>
         <Logo />
         <div className="nav">
           <div className="nav-words">
