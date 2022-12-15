@@ -8,8 +8,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="page-wrapper" style={{ "--logo": "8px" }}>
-      <Logo />
+    <div className="page-wrapper">
       <h1 id="title">Thomas Lam</h1>
       <span className="sub">Student Developer</span>
       <div className="home-buttons">

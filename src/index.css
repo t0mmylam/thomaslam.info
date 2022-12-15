@@ -82,16 +82,16 @@ p a:hover {
 
 #title {
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   color: white;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: bold;
   font-family: inherit;
   text-align: center;
 }
 
 .home-buttons {
-  margin-top: 20px;
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 20px;
