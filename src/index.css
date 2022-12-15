@@ -27,7 +27,7 @@ body {
 
 main {
   margin: auto;
-  min-height: calc(100vh - 128px);
+  min-height: calc(100vh - 96px);
   max-width: 670px;
   color: #bbb;
   position: relative;
@@ -72,7 +72,7 @@ p a:visited {
 }
 
 p a:hover {
-  color: #7fffd4;
+  color: var(--accent);
 }
 
 .sub {
@@ -102,7 +102,7 @@ p a:hover {
   border-radius: 0.5rem;
   color: rgb(255, 255, 255);
   padding: 0.8rem 1.6rem;
-  background: #7fffd4;
+  background: var(--accent);
   background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
   display: inline-flex;
   justify-content: center;
@@ -112,4 +112,25 @@ p a:hover {
 
 .button:hover {
   background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+}
+
+ul {
+  width: 100%;
+  border-left: 3px solid var(--accent);
+}
+
+ul li:before {
+  content: \&#9670;
+  font-size: 80%;
+}
+
+li {
+  color: var(--accent);
+  font-size: 2em;
+  list-style-type: none;
+}
+
+h2 {
+  margin-top: 0;
+  color: white;
 }

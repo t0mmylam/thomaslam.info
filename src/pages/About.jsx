@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function About() {
   return (
@@ -41,7 +41,7 @@ function About() {
       </p>
       <p>
         At UVA, I work as a developer for theCourseForum.com, a place for
-        students to share reviews for courses. I'm also working with a group of
+        students to share reviews for courses. I'm also working with a team of
         professors and students to build a office hours queue that implements AI
         to group students. At the same time, I'm developing a Q&A bot that uses
         natural language processing to answer student questions. Outside of

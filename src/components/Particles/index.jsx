@@ -37,7 +37,7 @@ function ParticlesBG(props) {
                             'default': 'bounce',
                         },
                         'random': true,
-                        'speed': 0.2,
+                        'speed': 0.25,
                         'straight': false,
                     },
                     'number': {
@@ -45,16 +45,16 @@ function ParticlesBG(props) {
                             'enable': true,
                             'area': 1000,
                         },
-                        'value': 120,
+                        'value': 200,
                     },
                     'opacity': {
-                        'value': 0.8,
+                        'value': .9,
                     },
                     'shape': {
                         'type': 'circle',
                     },
                     'size': {
-                        'value': { 'min': 0.7, 'max': 0.7 },
+                        'value': { 'min': 1, 'max': 1 },
                     },
                 },
                 'detectRetina': true,

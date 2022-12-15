@@ -19,7 +19,7 @@
 
 #tllt:hover  {
     transform: rotate(180deg);
-    border-color: #7fffd4;
+    border-color: var(--accent);
 }
 
 #T0 {
@@ -127,6 +127,6 @@
 #tllt:hover #T11,
 #tllt:hover #T12,
 #tllt:hover #L1 {
-    border-color: #7fffd4;
+    border-color: var(--accent);
 }
 
