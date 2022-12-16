@@ -7,6 +7,7 @@ footer {
   align-items: center;
   justify-content: center;
   color: #bbb;
+  padding: 1rem;
 }
 
 .footer-icons {
@@ -44,4 +45,10 @@ footer {
 
 .footer-button:hover {
   color: var(--accent);
+}
+
+@media (max-width: 570px) {
+  footer {
+    width: auto;
+  }
 }

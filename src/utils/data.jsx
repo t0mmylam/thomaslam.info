@@ -1,8 +1,11 @@
 export const ExperienceData = [
     {
         company: "NASK Incorporated",
-        image: '/images/NASK.svg',
+        image: 'Nask.svg',
         link: "https://nask.world/",
+        position: 'Software Engineering Intern',
+        date: 'Summer 2022',
+        desc: ''
     }
 ]
 

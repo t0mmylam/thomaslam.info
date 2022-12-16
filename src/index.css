@@ -131,6 +131,32 @@ li {
 }
 
 h2 {
-  margin-top: 0;
+  font-size: 0.75em;
+  margin: 0;
   color: white;
+}
+
+h2:hover {
+  color: var(--accent);
+}
+
+img {
+  width: 8em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pos {
+  font-size: 0.5em;
+  color: var(--accent);
+  filter: brightness(0.7);
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }

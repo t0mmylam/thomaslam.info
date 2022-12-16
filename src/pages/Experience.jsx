@@ -8,11 +8,14 @@ function Experience() {
       <ul>
         {ExperienceData.map((work) => {
           return (
-            <li>
-                <img src={work['image']}></img>
-                <h2>{work['company']}</h2>
+            <li key={work} className='work'>
+              <a href={work['link']} target="_blank" rel="noopener noreferrer">
+                <img src={"/images/Nask.svg"} alt="Nask" />
+              </a>
+              <span className="pos">{work['position']} | {work['date']}</span>
+              <p>{work['desc']}</p>
             </li>
-          )
+          );
         })}
       </ul>
     </div>
