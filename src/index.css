@@ -40,6 +40,7 @@ main {
 }
 
 h1 {
+  font-size: 2.8em;
   color: white;
   width: 100%;
 }
@@ -54,10 +55,11 @@ h1 {
 }
 
 p {
+  color: #bbb;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
   font-size: 1.25rem;
-  line-height: 1.8;
+  line-height: 1.5;
   letter-spacing: 0;
   width: 100%;
 }
@@ -114,20 +116,18 @@ p a:hover {
   background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
 }
 
-ul {
+.experience {
   width: 100%;
-  border-left: 3px solid var(--accent);
 }
 
-ul li:before {
+.experience li:before {
   content: \&#9670;
   font-size: 80%;
 }
 
-li {
+.work {
   color: var(--accent);
   font-size: 2em;
-  list-style-type: none;
 }
 
 h2 {
@@ -140,10 +140,6 @@ h2:hover {
   color: var(--accent);
 }
 
-img {
-  width: 8em;
-}
-
 a {
   text-decoration: none;
 }
@@ -151,7 +147,6 @@ a {
 .pos {
   font-size: 0.5em;
   color: var(--accent);
-  filter: brightness(0.7);
 }
 
 .work {
@@ -159,4 +154,17 @@ a {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  margin-bottom: 2em;
+  padding-left: 1em;
+  border-left: 3px double var(--accent);
+}
+
+.point {
+  color: #bbb;
+  font-size: 0.5em;
+  line-height: 1.5;
+}
+
+img {
+  margin-bottom: 0.4em;
 }
