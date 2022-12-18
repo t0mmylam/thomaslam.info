@@ -40,13 +40,20 @@ function About() {
         PostgreSQL table.
       </p>
       <p>
-        At UVA, I work as a developer for theCourseForum.com, a place for
-        students to share reviews for courses. I'm also working with a team of
-        professors and students to build a office hours queue that implements AI
-        to group students. At the same time, I'm developing a Q&A bot that uses
-        natural language processing to answer student questions. Outside of
-        writing code, I'm working with a team to write a research paper on CS
-        Education through{" "}
+        At UVA, I work as a developer for{" "}
+        <a
+          href="https://thecourseforum.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          theCourseForum.com
+        </a>
+        , a place for students to share reviews for courses. I'm also working
+        with a team of professors and students to build a office hours queue
+        that implements AI to group students. At the same time, I'm developing a
+        Q&A bot that uses natural language processing to answer student
+        questions. Outside of writing code, I'm working with a team to write a
+        research paper on CS Education through{" "}
         <a
           href="https://engineering.virginia.edu/departments/computer-science/computer-science-research"
           target="_blank"
@@ -56,7 +63,7 @@ function About() {
         </a>{" "}
         to analyze student engagement in courses.
       </p>
-      <p id='end'>
+      <p id="end">
         Outside of work, I enjoy listening to a variety of{" "}
         <a
           href="https://open.spotify.com/user/lam.tommy?si=c740f4e06b1b4e25"
