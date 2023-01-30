@@ -68,7 +68,7 @@ function Navbar() {
           </a>
           <a
             className="icons underline-hover-effect nav-links"
-            href="https://Navlinkedin.com/in/thslam/"
+            href="https://linkedin.com/in/thslam/"
           >
             <FaLinkedin />
           </a>
