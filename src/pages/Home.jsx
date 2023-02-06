@@ -13,7 +13,7 @@ function Home() {
       <span className="sub">Student Developer</span>
       <div className="home-buttons">
         <Link to='/about' className='button'><FaInfoCircle />About</Link>
-        <Link to='/projects' className='button'><FaProjectDiagram />Projects</Link>
+        {/*<Link to='/projects' className='button'><FaProjectDiagram />Projects</Link>*/}
       </div>
     </div>
   );
