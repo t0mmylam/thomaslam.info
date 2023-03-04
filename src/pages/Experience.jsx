@@ -13,7 +13,7 @@ function Experience() {
               <a href={work['link']} target="_blank" rel="noopener noreferrer">
                 <img style={{width:work['width']}}src={work['image']} alt="Nask" />
               </a>
-              <span className="pos">{work['position']} | {work['date']}</span>
+              <span className="pos"><b>{work['position']} | {work['date']}</b></span>
               <p style={{margin:0}}>{work['desc']}</p>
               <ul className="desc">
                 {work['sub']?.map((desc) => {

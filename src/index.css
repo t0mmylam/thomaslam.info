@@ -148,6 +148,7 @@ a {
 .pos {
   font-size: 0.5em;
   color: lightgrey;
+  padding-bottom: .2em;
 }
 
 .work {
