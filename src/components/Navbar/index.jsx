@@ -42,12 +42,12 @@ function Navbar() {
             >
               Experience
             </NavLink>
-            <NavLink
+            {/* {<NavLink
               className="nav-links underline-hover-effect"
               to="/projects"
             >
               Projects
-            </NavLink>
+            </NavLink>} */}
           </div>
           <div className="nav-icons">
             <NavLink className="nav-links underline-hover-effect" to="/about">

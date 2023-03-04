@@ -21,24 +21,7 @@ function About() {
         on! In the future, I hope to work as a Software Engineer on projects
         that have a meaningful impact on the world.
       </p>
-      <p>
-        Over the past summer, I intered at{" "}
-        <a href="https://nask.world/" target="_blank" rel="noopener noreferrer">
-          NASK Incorporated
-        </a>{" "}
-        as part of the{" "}
-        <a
-          href="https://brewlytics.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          brewlytics
-        </a>{" "}
-        team. I built regression tests for the CI/CD pipeline, a CLI that
-        interacts with the MongoDB backend in Go, and a functional block that
-        parses a mathemetical expression to perform complex arithmetic on a
-        PostgreSQL table.
-      </p>
+
       <p>
         At UVA, I work as a developer for{" "}
         <a
@@ -63,6 +46,26 @@ function About() {
         </a>{" "}
         to analyze student engagement in courses.
       </p>
+
+      <p>
+        Over the past summer, I intered at{" "}
+        <a href="https://nask.world/" target="_blank" rel="noopener noreferrer">
+          NASK Incorporated
+        </a>{" "}
+        as part of the{" "}
+        <a
+          href="https://brewlytics.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          brewlytics
+        </a>{" "}
+        team. I built regression tests for the CI/CD pipeline, a CLI that
+        interacts with the MongoDB backend in Go, and a functional block that
+        parses a mathemetical expression to perform complex arithmetic on a
+        PostgreSQL table.
+      </p>
+
       <p id="end">
         Outside of work, I enjoy listening to a variety of{" "}
         <a
