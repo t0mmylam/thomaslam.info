@@ -15,7 +15,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   text-align: center;
   max-width: 72rem;
   margin: auto;
@@ -97,7 +96,7 @@ header {
   }
   .nav-icons {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     grid-gap: 20px;
   }
 

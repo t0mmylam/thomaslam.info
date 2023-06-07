@@ -6,7 +6,7 @@ export const ExperienceData = [
     link: "https://www.nutanix.com/",
     position: "Cloud Engineering Intern",
     date: "Summer 2023",
-    desc: ``,
+    desc: `In Progress...`,
     sub: [
 
     ]

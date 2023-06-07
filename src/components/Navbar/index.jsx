@@ -56,9 +56,6 @@ function Navbar() {
             <NavLink className="nav-links underline-hover-effect" to="/">
               <FaBriefcase />
             </NavLink>
-            <NavLink className="nav-links underline-hover-effect" to="/">
-              <FaProjectDiagram />
-            </NavLink>
           </div>
           <a
             className="icons underline-hover-effect nav-links"
