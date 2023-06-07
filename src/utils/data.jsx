@@ -1,12 +1,32 @@
 export const ExperienceData = [
   {
+    company: "Nutanix",
+    image: "/images/Nutanix.jpg",
+    width: "4em",
+    link: "https://www.nutanix.com/",
+    position: "Cloud Engineering Intern",
+    date: "Summer 2023",
+    desc: ``,
+    sub: [
+
+    ]
+  },
+  {
     company: "University of Virginia",
     image: "/images/UVA.svg",
     width: "4em",
     link: "https://engineering.virginia.edu/departments/computer-science/computer-science-research",
     position: "Research Assistant",
     date: "September 2022 - Present",
-    desc: ``
+    desc: `Worked on two separate CS Education research projects during the fall and spring semester of my first year at UVA. `,
+    sub: [
+      `Developed features for the back-end of a new Office Hours Queue in PHP used by over 500 students in CS2130 to
+      group students together based on cosine similarity of query vectors`,
+      `Created Q&A bot to help streamline process of Office Hours by answering commonly asked questions using artificial
+      intelligence and natural language processing in Python`,
+      `Wrote a Python simulation script to estimate the increased efficiency of the smart Office Hours queue,
+      demonstrating the potential benefits of the question similarity-based grouping system`,
+    ]
   },
   {
     company: "NASK Incorporated",
@@ -47,6 +67,11 @@ export const ExperienceData = [
 
 export const ProjectsData = [
   {
-    title: "test",
+    title: "theCourseForum",
+    image: "/images/theCourseForum[FILL]",
+    width: "",
+    link: "",
+    position: "",
+    desc: ``
   },
 ];

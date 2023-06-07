@@ -63,7 +63,10 @@ function About() {
         team. I built regression tests for the CI/CD pipeline, a CLI that
         interacts with the MongoDB backend in Go, and a functional block that
         parses a mathemetical expression to perform complex arithmetic on a
-        PostgreSQL table.
+        PostgreSQL table. Read more about my previous experiences <a
+          href="/experience"
+          rel="noopener noreferrer"
+        >here</a>.
       </p>
 
       <p id="end">
