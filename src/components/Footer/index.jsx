@@ -9,7 +9,7 @@ function Footer({switchColor}) {
       <div className="footer-icons">
         <p id="footer-p">
           Send me an email at{" "}
-          <a href="mailto:bqs7kc@virginia.edu">bqs7kc@virginia.edu</a>
+          <a href="mailto:thomas.lam@columbia.edu">thomas.lam@columbia.edu</a>
         </p>
         <button onClick={switchColor} className="footer-button">
           <FaRandom />
