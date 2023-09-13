@@ -6,9 +6,14 @@ export const ExperienceData = [
     link: "https://www.nutanix.com/",
     position: "Cloud Engineering Intern",
     date: "Summer 2023",
-    desc: `In Progress...`,
+    desc: `As a dedicated member of the Microservices Platform (MSP) Team at Nutanix, I contributed to the enhancement and development of our Kubernetes-based service platform.`,
     sub: [
-
+      `Spearheaded the transition from a Docker volume to a local disk partition for the etcd container, using Python and
+      Golang, in response to the deprecation of the Nutanix Docker Volume Plugin`,
+      `Developed a strategy for migrating existing clusters to use local disk partitions via snapshots, ensuring minimal
+      disruption to ongoing operations and services`,
+      `Won 1st in U-Hack (Nutanix Intern Hackathon) by developing a one-click data migration tool that seamlessly
+      transfers databases from AWS RDS, Google Cloud, and Microsoft Azure to Nutanix DB`
     ]
   },
   {
